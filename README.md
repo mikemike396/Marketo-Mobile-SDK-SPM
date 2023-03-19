@@ -1,5 +1,7 @@
 # Unofficial Swift Package for Marketo Mobile SDK
 
+The Marketo Mobile SDK is yet to officially support SPM or even arm64(simulators). This repo adds support for both! Since we don't have access to the original source and this is a static library we used a few third party tools to convert the binary to arm64(simulator) and then bundled it up into an XCFramework to allow easy delivery via SPM. 
+
 ## Swift Package Manager
 
 - File > Swift Packages > Add Package Dependency
